@@ -23,7 +23,7 @@ function NavBar() {
         <ul className="flex space-x-4 text-lg font-medium">
             {
                 links.map((link)=>(
-                    <Link className={cn("text-zinc-500 hover:text-zinc-800 transition-colors",pathname === link.href && "text-zinc-800")} key={link.name} href={link.href}>{link.name}</Link>
+                    <Link className={cn("text-zinc-500 hover:text-zinc-100 transition-colors",pathname === link.href && "text-zinc-100")} key={link.name} href={link.href}>{link.name}</Link>
                 ))
             }
         </ul>
